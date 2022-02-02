@@ -1,8 +1,16 @@
-import jp.ac.uryukyu.ie.e215758.*;
-
-public class Main{
+public class Main {
     public static void main(String[] args){
+        /* Step1 ~ Step2
         String str = null;
-        System.out.println(str.length());
+        try {
+            System.out.println(str.length());
+        }catch(NullPointerException e){
+            System.out.println("エラー発生");
+            System.out.println(e.getMessage());
+        }
+        */
+        // Step3
+        String str = "百二十三";
+        int value = Integer.parseInt(str);
     }
 }
